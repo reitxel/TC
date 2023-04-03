@@ -1,4 +1,4 @@
-# TC
+# README
 
 Pipeline for the processing of scoliotic and non-scoliotic images to assess rib cage deformations. Manual steps are explaine in a separated .pdf called 'Manual.pdf':
 1. Visual inspection of images (see Manual.pdf)
