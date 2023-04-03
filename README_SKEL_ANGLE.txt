@@ -1,3 +1,9 @@
+Skeletonization code:
+  -Used to make a skeletonization of the segmentated scans
+  -Importing skeletonized images
+  -Skeletonizes it to get midline of the structures
+  -Exports those midlines in a skeleton-file
+
 Angle code:
   -Used to calculate angle between reference landmark on the vertebra and landmarks on the rib
   -In the top of the code the landmark (1, 3, 6 or 8) on the rib can be entered
