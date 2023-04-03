@@ -9,7 +9,7 @@ Pipeline for the processing of scoliotic and non-scoliotic images to assess rib 
   visualization. Their pixel spacing was 1 by default. This isue fixed in this step.
   - Denoising of scoliotic images: scoliotic images are filtered to avoid artifacts due to noise when performing the
   segmentations.
-  - Registration: 
+  - Registration (see parameters_affine2.txt for details): 
     - control images are registered to the first control image.
     - pre-operative scoliotic images are registered to the first pre-operative scolitoic images.
     - post-operative images are registered to their corresponding registered pre-operative image.
