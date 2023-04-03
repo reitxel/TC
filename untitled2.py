@@ -3,7 +3,6 @@ import numpy as np
 import os
 from scipy.spatial import ConvexHull
 
-#volume for patients with 4 ribs
 def calculate_volume_from_json(folder_path, pattern):
     positions = []
     nums = [1, 3, 5]
@@ -39,7 +38,6 @@ for i in nums1:
 
 mean_volume = np.mean(control_volumes)
 
-#patients with 4 ribs located
 patient_volumes = []
 nums2 = [1,2,3,4,5,7,9]
 for i in nums2:
